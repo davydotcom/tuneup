@@ -5,8 +5,9 @@ buildscript {
     }
     dependencies {
         classpath "org.grails:grails-gradle-plugin:$grailsVersion"
-        classpath "com.bertramlabs.plugins:asset-pipeline-gradle:2.14.2"
-    }
+        classpath "com.bertramlabs.plugins:asset-pipeline-gradle:2.14.6"
+		classpath 'com.craigburke.gradle:client-dependencies:1.4.0'
+	}
 }
 
 version "0.1"
@@ -18,6 +19,7 @@ apply plugin:"org.grails.grails-plugin"
 apply plugin:"org.grails.grails-plugin-publish"
 apply plugin:"asset-pipeline"
 apply plugin:"org.grails.grails-gsp"
+apply plugin: 'com.craigburke.client-dependencies'
 
 repositories {
     mavenLocal()
@@ -52,6 +54,17 @@ dependencies {
     testCompile "org.grails:grails-web-testing-support"
 }
 
+clientDependencies {
+	defaultCopy = {
+		include '**'
+		exclude '**/*.less', '**/*.sass', 'npm.js'
+	}
+	npm {
+		'bootstrap'('3.3.6', into: 'tuneup-libs/bootstrap') // <2>
+		'jquery'('2.2.4', into: 'tuneup-libs/jquery') // <2>
+	}
+}
+
 bootRun {
     jvmArgs('-Dspring.output.ansi.enabled=always')
     addResources = true
@@ -70,6 +83,8 @@ grailsPublish {
     desc = "Full plugin description"
     developers = [johndoe:"John Doe"]
 }
+
+
 
 
 assets {

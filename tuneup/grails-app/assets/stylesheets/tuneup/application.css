@@ -1,7 +1,9 @@
 /*
+*= require /tuneup-libs/bootstrap/css/bootstrap
+*= require /tuneup-libs/bootstrap/css/bootstrap-theme
 *= require_full_tree .
 */
 
-h1 {
-	color: blue;
+body {
+	margin-top:20px;
 }

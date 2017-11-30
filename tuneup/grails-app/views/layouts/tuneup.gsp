@@ -14,11 +14,28 @@
     <g:layoutHead/>
 </head>
 <body>
-	<div class="header">
-		<h1>Tune-Up Metrics</h1>
+
+<div class="container">
+	<div class="header clearfix">
+		<nav>
+			<ul class="nav nav-pills pull-right">
+				<li role="presentation" class="active"><a href="#">Home</a></li>
+			</ul>
+		</nav>
+		<h3 class="text-muted">Tune Up Metrics</h3>
 	</div>
 
-    <g:layoutBody/>
+
+
+	<div class="row marketing">
+		<div class="col-xs-12">
+			<g:layoutBody/>
+		</div>
+	</div>
+
+
+
+</div> <!-- /container -->
 
     <asset:javascript src="tuneup/application.js"/>
 
