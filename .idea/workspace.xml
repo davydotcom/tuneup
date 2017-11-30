@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a74dfec-5cd3-4c8e-9dc0-d59716061722" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tuneup/grails-app/views/tuneup/slowTransactions/index.gsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tuneupworkspace.iml" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileSnapshots.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.lock" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tuneup/src/main/groovy/com/bertramlabs/plugins/tuneup/MetricManager.groovy" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/tuneup/grails-app/controllers/com/bertramlabs/plugins/UrlMappings.groovy" afterPath="$PROJECT_DIR$/tuneup/grails-app/controllers/com/bertramlabs/plugins/tuneup/UrlMappings.groovy" />
-      <change beforePath="$PROJECT_DIR$/tuneup/grails-app/views/error.gsp" afterPath="$PROJECT_DIR$/tuneup/grails-app/views/error.gsp" />
-      <change beforePath="$PROJECT_DIR$/tuneup/grails-app/views/index.gsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tuneup/grails-app/views/layouts/main.gsp" afterPath="$PROJECT_DIR$/tuneup/grails-app/views/layouts/tuneup.gsp" />
-      <change beforePath="$PROJECT_DIR$/tuneup/grails-app/views/notFound.gsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tuneup/grails-app/controllers/com/bertramlabs/plugins/tuneup/UrlMappings.groovy" afterPath="$PROJECT_DIR$/tuneup/grails-app/controllers/com/bertramlabs/plugins/tuneup/UrlMappings.groovy" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -45,8 +31,8 @@
       <file leaf-file-name="UrlMappings.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tuneup/grails-app/controllers/com/bertramlabs/plugins/tuneup/UrlMappings.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -55,8 +41,18 @@
       <file leaf-file-name="TuneUpMetricInterceptor.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tuneup/grails-app/controllers/com/bertramlabs/plugins/tuneup/TuneUpMetricInterceptor.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="45">
+              <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MetricManager.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tuneup/src/main/groovy/com/bertramlabs/plugins/tuneup/MetricManager.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.gsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.gsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tuneup/grails-app/views/tuneup/slowTransactions/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -95,8 +91,8 @@
       <file leaf-file-name="tuneup.gsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tuneup/grails-app/views/layouts/tuneup.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="42">
+              <caret line="27" column="11" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -1765,8 +1761,9 @@
       <list>
         <option value="$PROJECT_DIR$/tuneup/grails-app/controllers/com/bertramlabs/plugins/tuneup/TuneUpMetricInterceptor.groovy" />
         <option value="$PROJECT_DIR$/tuneup/grails-app/controllers/com/bertramlabs/plugins/tuneup/SlowTransactionsController.groovy" />
-        <option value="$PROJECT_DIR$/tuneup/grails-app/controllers/com/bertramlabs/plugins/tuneup/UrlMappings.groovy" />
         <option value="$PROJECT_DIR$/tuneup/grails-app/views/tuneup/slowTransactions/index.gsp" />
+        <option value="$PROJECT_DIR$/tuneup/grails-app/controllers/com/bertramlabs/plugins/tuneup/UrlMappings.groovy" />
+        <option value="$PROJECT_DIR$/tuneup/src/main/groovy/com/bertramlabs/plugins/tuneup/MetricManager.groovy" />
       </list>
     </option>
   </component>
@@ -1854,6 +1851,46 @@
               <item name="grails-app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="slowTransactions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tuneupworkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tuneupworkspace" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="tuneup" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tuneupworkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tuneupworkspace" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="tuneup" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="tuneupworkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tuneupworkspace" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="tuneup" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tuneupworkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tuneupworkspace" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="tuneup" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tuneupworkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tuneupworkspace" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="tuneup" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="tuneup" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -2003,16 +2040,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512056572126</updated>
-      <workItem from="1512056576394" duration="814000" />
+      <workItem from="1512056576394" duration="1230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="814000" />
+    <option name="totallyTimeSpent" value="1230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2602,34 +2638,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tuneup/grails-app/controllers/com/bertramlabs/plugins/tuneup/TuneUpMetricInterceptor.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tuneup/grails-app/controllers/com/bertramlabs/plugins/tuneup/SlowTransactionsController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuneup/grails-app/controllers/com/bertramlabs/plugins/tuneup/UrlMappings.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuneup/grails-app/views/layouts/tuneup.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2642,10 +2654,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tuneup/grails-app/controllers/com/bertramlabs/plugins/tuneup/UrlMappings.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tuneup/grails-app/views/tuneup/slowTransactions/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuneup/grails-app/views/layouts/tuneup.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="27" column="11" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuneup/grails-app/controllers/com/bertramlabs/plugins/tuneup/TuneUpMetricInterceptor.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuneup/src/main/groovy/com/bertramlabs/plugins/tuneup/MetricManager.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
