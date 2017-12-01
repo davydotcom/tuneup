@@ -7,7 +7,7 @@ import java.nio.charset.Charset
 
 conversionRule 'clr', ColorConverter
 conversionRule 'wex', WhitespaceThrowableProxyConverter
-
+scan()
 // See http://logback.qos.ch/manual/groovy.html for details on configuration
 appender('STDOUT', ConsoleAppender) {
     encoder(PatternLayoutEncoder) {
@@ -32,5 +32,6 @@ if (Environment.isDevelopmentMode() && targetDir != null) {
         }
     }
     logger("StackTrace", ERROR, ['FULL_STACKTRACE'], false)
+	logger('com.bertramlabs.plugins.tuneup',INFO)
 }
 root(ERROR, ['STDOUT'])

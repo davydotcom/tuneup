@@ -40,9 +40,6 @@ dependencies {
     compile "org.grails:grails-plugin-services"
     compile "org.grails:grails-plugin-url-mappings"
     compile "org.grails:grails-plugin-interceptors"
-    compile "org.grails.plugins:cache"
-    compile "org.grails.plugins:async"
-    compile "org.grails.plugins:scaffolding"
     compile "org.grails.plugins:gsp"
     console "org.grails:grails-console"
     profile "org.grails.profiles:web-plugin"
@@ -71,17 +68,22 @@ bootRun {
 }
 // enable if you wish to package this plugin as a standalone application
 bootRepackage.enabled = false
+
 grailsPublish {
-    // TODO: Provide values here
-    user = 'user'
-    key = 'key'
-    githubSlug = 'foo/bar'
+	if(project.hasProperty('bintrayUser')) {
+		user = bintrayUser
+		key = bintrayKey
+	}
+
+    githubSlug = 'davydotcom/tuneup'
+	userOrg = 'bertramlabs'
+	repo = 'grails3-plugins'
     license {
         name = 'Apache-2.0'
     }
-    title = "My Plugin"
-    desc = "Full plugin description"
-    developers = [johndoe:"John Doe"]
+    title = "TuneUp"
+    desc = "Basic TuneUp Plugin providing web transaction metrics"
+    developers = [davydotcom:"David Estes"]
 }
 
 

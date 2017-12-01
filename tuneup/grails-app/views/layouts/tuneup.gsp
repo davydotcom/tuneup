@@ -19,7 +19,13 @@
 	<div class="header clearfix">
 		<nav>
 			<ul class="nav nav-pills pull-right">
-				<li role="presentation" class="active"><a href="#">Home</a></li>
+				<li role="presentation" class="active">
+					<g:form controller="slowTransactions" namespace="tuneup" action="clear" method="POST" class="form-inline">
+						<div class="input-group">
+							<g:submitButton name="Clear Transactions" class="btn btn-primary btn-sm"/>
+						</div>
+					</g:form>
+				</li>
 			</ul>
 		</nav>
 		<h3 class="text-muted">Tune Up Metrics</h3>
